@@ -1,0 +1,151 @@
+/* 
+    Created on : 31-mar-2018, 17.52.40
+    Author     : Giovanni Vella
+*/
+#menu {
+    text-align: left;
+    padding-left: 40px;
+}
+#tables {
+    text-align: left;
+    padding-left: 40px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    width: auto;
+    font-size: 120%;
+    font-weight: bold;
+    margin-left: 50px;
+    border: 3px solid #0077BE;
+}
+input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus {
+    color: #0077BE;
+    background-color: white;
+}
+hr {
+    border-width: 5px;
+}
+.tableNumBtn {
+    margin-bottom: 60px;
+}
+#q {
+    width: 7%;
+    padding: 13px 1px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 100%;
+    text-align: center;
+    color: #005180;
+}
+#select_aliments {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 100%;
+    text-align: center;
+    color: #005180;
+    background: white;
+}
+#add_ali {
+    width: 50px;
+    height: 58px;
+    padding: 4px 12px;
+    margin: -20px 0;
+    box-sizing: content-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #0077BE;
+}
+.buttonDelAli {
+    width: 30px;
+    border: 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: left;
+    cursor: pointer;
+}
+.minusTdBox {
+    width: 35px;
+}
+.qTdBox {
+    width: 45px;
+}
+#plusmintable {
+    width: 50px;
+    height: 58px;
+}
+#cover {
+    text-align: center;
+    width: 7%;
+}
+#coverSec {
+    text-align: right;
+    margin-right: 16%;
+}
+#sendOrdBtn{
+    float: right;
+    margin-right: 8%;
+}
+#printOrdBtn{
+    float: right;
+}
+#sepOrd {
+    width: 30%;
+    padding: 4px 16px;
+    margin: 4px 2px;
+    font-size: 100%;
+}
+#selTabNum {
+    width: 8%;
+    padding: 12px 20px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 70%;
+    text-align: center;
+    color: #005180;
+    background: white;
+}
+#newTableBtn {
+    height: 40px;
+    padding: 4px 12px;
+    margin: -20px 0;
+    box-sizing: content-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #0077BE;
+}
+#newTableSec {
+    text-align: center;
+}
+#add_note {
+    width: 60px;
+    margin-top: -300px;
+    margin-right: 400px;
+    box-sizing: content-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #0077BE;
+}
+#noteBtnSec {
+    text-align: right;
+}
+#noteSec {
+    display: none;
+    font-size: 80%;
+}
+#noteBox {
+    width: 70%;
+    height: 40px;
+}
