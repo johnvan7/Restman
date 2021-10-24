@@ -1,0 +1,89 @@
+/* 
+    Created on : 25-gen-2017, 18.42.25
+    Author     : Giovanni Vella
+*/
+#q {
+    width: 15%;
+    padding: 13px 1px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 100%;
+    text-align: center;
+    color: #005180;
+}
+#select_aliments {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 100%;
+    text-align: center;
+    color: #005180;
+    background: white;
+}
+#add_ali {
+    width: 30px;
+    height: 48px;
+    padding: 4px 12px;
+    margin: -20px 0;
+    box-sizing: content-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #0077BE;
+}
+.buttonDelAli {
+    width: 30px;
+    border: 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: left;
+    cursor: pointer;
+}
+.minusTdBox {
+    width: 35px;
+}
+.qTdBox {
+    width: 45px;
+}
+#sepOrd {
+    width: 45%;
+    padding: 4px 16px;
+    margin: 4px 2px;
+    font-size: 50%;
+}
+#add_note {
+    width: 40px;
+    margin-top: -300px;
+    margin-right: 30px;
+    box-sizing: content-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #0077BE;
+}
+#noteBtnSec {
+    text-align: right;
+}
+#noteSec {
+    display: none;
+    font-size: 80%;
+}
+#noteBox {
+    width: 70%;
+    height: 40px;
+}
+#printOrd{
+    font-size: 110%;
+}
+#saveOrd{
+    background-color: white;
+    color: #0077BE;
+    border: 3px solid #0077BE;
+}
